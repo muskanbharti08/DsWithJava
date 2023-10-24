@@ -51,5 +51,7 @@ public class hash_Maps {
         tm.put("egg",7);
         tm.put("apple",100);
         System.out.println(tm);  // in  assending order based of key value
-    }
+        tm.put("ass",90);
+        tm.put("zebra",7);
+        System.out.println(tm);}
 }
