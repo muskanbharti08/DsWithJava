@@ -35,6 +35,9 @@ public class hash_map {
        int c =  hm.get("Apple");
         System.out.println("The value of Apple is  "+c);
 
+        //clear --> used for clear the hashmap
+        hm.clear();
+        System.out.println(hm);
 
     }
 }
