@@ -22,7 +22,7 @@ public class question {
                 hm.put(x,hm.get(x)+1);  // agr contain krega to frequency me 1 add krenge
             }
             else {
-                hm.put(x,1);            
+                hm.put(x,1);
             }
 
         }
