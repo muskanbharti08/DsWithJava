@@ -44,7 +44,7 @@ public class HeightOfTree {
         if (root == null) {          // Base Case if root is null return 0
             return 0 ;
         }
-                                    // else compare the Left Heigth and right Height of a Root  ->  After getting Max Height +1
+                                    // else compare the Left Height and right Height of a Root  ->  After getting Max Height, +1
         int lh= Height(root.left);  // recursion
         int rh=Height(root.right);  // recursion
 
